@@ -1,0 +1,33 @@
+{
+  "name": "otto-crypt-js",
+  "version": "0.1.0",
+  "description": "OTTO Crypt JS: AES-256-GCM + HKDF-SIV style streaming AEAD compatible with Laravel OTTO package; includes X25519 and Argon2id via libsodium.",
+  "license": "MIT",
+  "author": "Ivan Doe",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "bin": {
+    "otto-crypt": "bin/otto-crypt.js"
+  },
+  "scripts": {
+    "test": "node -e \"console.log('No tests yet')\""
+  },
+  "dependencies": {
+    "libsodium-wrappers": "^0.7.13"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "encryption",
+    "aes-gcm",
+    "hkdf",
+    "siv",
+    "x25519",
+    "argon2id",
+    "aead",
+    "streaming",
+    "laravel",
+    "interop"
+  ]
+}
