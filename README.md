@@ -307,7 +307,7 @@ Before proposing algorithmic changes, open an issue to discuss implications.
 
 ## License
 
-MIT © 2025 Ivan Doe
+MIT © 2025 Ivan Sostarko
 
 ---
 
