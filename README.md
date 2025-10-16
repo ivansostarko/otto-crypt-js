@@ -1,10 +1,5 @@
-# OTTO Crypt JS — Interop E2EE & Streaming AEAD for Node.js
+# OTTO Crypt — JS Package
 
-**Package:** `otto-crypt-js`  
-**License:** MIT  
-**Author:** Ivan Doe  
-**Node:** >= 18  
-**Interop:** ✅ Compatible with Laravel package `ivansostarko/otto-crypt-php` (encrypt in PHP ↔ decrypt in Node, and vice versa)
 
 OTTO Crypt JS implements the **OTTO-256-GCM-HKDF-SIV** construction: a pragmatic, misuse-resistant design built on **AES‑256‑GCM**, **HKDF(SHA‑256)**, **Argon2id**, and **X25519**. It supports **chunked streaming encryption** for very large files (photos, docs, audio, video) and an **end‑to‑end (E2E)** mode with ephemeral X25519 key exchange.
 
