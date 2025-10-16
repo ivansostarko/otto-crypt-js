@@ -24,7 +24,6 @@ OTTO Crypt JS implements the **OTTO-256-GCM-HKDF-SIV** construction: a pragmatic
 - [Comparison](#comparison)
 - [Security Considerations](#security-considerations)
 - [Performance Notes](#performance-notes)
-- [Docker](#docker)
 - [Roadmap](#roadmap)
 - [FAQ](#faq)
 - [Contributing](#contributing)
@@ -244,22 +243,6 @@ new OttoCrypt({
 
 ---
 
-## Docker
-
-This repo includes a **Dockerfile** and **docker-compose.yml**. Quick start:
-
-```bash
-docker compose up -d --build
-docker compose run --rm setup     # npm install/ci inside the container
-# Encrypt
-docker compose run --rm app node /package/bin/otto-crypt.js encrypt /data/in.bin /data/in.bin.otto --password="x"
-# Decrypt
-docker compose run --rm app node /package/bin/otto-crypt.js decrypt /data/in.bin.otto /data/in.dec.bin --password="x"
-```
-
-
-
----
 
 ## Roadmap
 
