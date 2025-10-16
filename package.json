@@ -1,6 +1,6 @@
 {
   "name": "otto-crypt-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "OTTO Crypt JS: AES-256-GCM + HKDF-SIV style streaming AEAD compatible with Laravel OTTO package; includes X25519 and Argon2id via libsodium.",
   "license": "MIT",
   "author": "Ivan Sostarko",

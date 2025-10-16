@@ -220,8 +220,6 @@ new OttoCrypt({
 | ChaCha20‑Poly1305 | ChaCha20/Poly1305 | App‑managed | App‑defined | App‑defined | Fast on non‑AES‑NI CPUs |
 | libsodium secretstream | XChaCha20‑Poly1305 | Internal | **Yes** | App‑defined | Excellent, widely used streaming API |
 
-**Pick OTTO** if you need AES‑GCM, Laravel/Node interop, deterministic nonces for safer streaming, and built‑in X25519 E2E helpers.
-
 ---
 
 ## Security Considerations
@@ -259,7 +257,7 @@ docker compose run --rm app node /package/bin/otto-crypt.js encrypt /data/in.bin
 docker compose run --rm app node /package/bin/otto-crypt.js decrypt /data/in.bin.otto /data/in.dec.bin --password="x"
 ```
 
-See `ops-DOCKER-README.md` for details.
+
 
 ---
 
